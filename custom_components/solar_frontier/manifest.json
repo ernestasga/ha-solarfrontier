@@ -1,0 +1,13 @@
+{
+  "domain": "solar_frontier",
+  "name": "Solar Frontier",
+  "codeowners": [
+    "@ernestasga"
+  ],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/ernestasga/ha-solarfrontier",
+  "homekit": {},
+  "iot_class": "local_polling",
+  "requirements": ["python-solarfrontier==0.1.1"]
+}
