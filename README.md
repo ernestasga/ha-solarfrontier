@@ -12,3 +12,16 @@ Custom integration for Solar Frontier inverters. Based on [python-solarfrontier 
 
 * SF-WR-5503x
 
+## Install
+
+### via HACS
+1. Go to HACS -> Integrations -> Custom repositories
+2. Paste https://github.com/ernestasga/ha-solarfrontier and select Categoty - Integration
+4. Go to Settings -> Integrations -> Add Integration
+5. Search Solar Frontier and enter IP address of the inverter
+
+### Manual
+1. Download the repository
+2. Copy the `custom_components/solarfrontier` folder into the `custom_components` folder of your Home Assistant installation.
+3. Go to Settings -> Integrations -> Add Integration
+4. Search Solar Frontier and enter IP address of the inverter
